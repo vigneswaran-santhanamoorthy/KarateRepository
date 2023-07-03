@@ -1,0 +1,2129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>com.api.StudentDetails.StudentDetails_GET</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">2</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2023-07-02 10:16:10 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>To get all the details of Student</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:29]"><span>[2:29]</span> <span>To get all the details of Student in Xml format</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">com/api/StudentDetails/StudentDetails_GET.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">StudentDetails</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">StudentDetails_GET</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">To get all the details of Student</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>427</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://thetestingworldapi.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.7">22:16:09.150 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/api/studentsDetails&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">199</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">22:16:09.158 request:
+1 &gt; GET https://thetestingworldapi.com/api/studentsDetails
+1 &gt; Accept: application/json
+1 &gt; Host: thetestingworldapi.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+22:16:09.343 response time in milliseconds: 185
+1 &lt; 200
+1 &lt; Cache-Control: no-cache
+1 &lt; Pragma: no-cache
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Expires: -1
+1 &lt; Server: Microsoft-IIS/10.0
+1 &lt; X-AspNet-Version: 4.0.30319
+1 &lt; X-Powered-By: ASP.NET
+1 &lt; X-Powered-By-Plesk: PleskWin
+1 &lt; Date: Sun, 02 Jul 2023 16:46:09 GMT
+1 &lt; Content-Length: 10725
+[{&quot;id&quot;:7620983,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;23&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620982,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620981,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;88&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620980,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620979,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;40&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620978,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;28&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620977,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620976,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620975,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620974,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;72&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620973,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;50&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620972,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620971,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620970,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;14&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620969,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620968,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620967,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;34&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620966,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620965,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;6&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620964,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620963,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620962,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;36&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620961,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620959,&quot;first_name&quot;:&quot;update&quot;,&quot;middle_name&quot;:&quot;ul&quot;,&quot;last_name&quot;:&quot;rehman&quot;,&quot;date_of_birth&quot;:&quot;11/11/2023&quot;},{&quot;id&quot;:7620958,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620957,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;60&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620956,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;80&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620955,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;9&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620954,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620953,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;sample&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620952,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;sample&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620950,&quot;first_name&quot;:&quot;update&quot;,&quot;middle_name&quot;:&quot;ul&quot;,&quot;last_name&quot;:&quot;rehman&quot;,&quot;date_of_birth&quot;:&quot;11/11/2023&quot;},{&quot;id&quot;:7620949,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;sample&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620948,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;sample&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620947,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;sample&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620946,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;sample&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620945,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;sample&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620944,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;sample&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620943,&quot;first_name&quot;:&quot;sample string 2&quot;,&quot;middle_name&quot;:&quot;sample string 3&quot;,&quot;last_name&quot;:&quot;sample string 4&quot;,&quot;date_of_birth&quot;:&quot;sample string 5&quot;},{&quot;id&quot;:7620941,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620939,&quot;first_name&quot;:&quot;Testing111&quot;,&quot;middle_name&quot;:&quot;EDF&quot;,&quot;last_name&quot;:&quot;Hi Jack&quot;,&quot;date_of_birth&quot;:&quot;01/11/1999&quot;},{&quot;id&quot;:7620938,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620937,&quot;first_name&quot;:&quot;Testing111&quot;,&quot;middle_name&quot;:&quot;EDF&quot;,&quot;last_name&quot;:&quot;Hi Jack&quot;,&quot;date_of_birth&quot;:&quot;01/11/1999&quot;},{&quot;id&quot;:7620936,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620934,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620933,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620932,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620931,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620930,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620929,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620928,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620927,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620925,&quot;first_name&quot;:&quot;update&quot;,&quot;middle_name&quot;:&quot;ul&quot;,&quot;last_name&quot;:&quot;rehman&quot;,&quot;date_of_birth&quot;:&quot;11/11/2023&quot;},{&quot;id&quot;:7620924,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620923,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620922,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620921,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620920,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620919,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620918,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620917,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620916,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;sample&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620915,&quot;first_name&quot;:&quot;Vignes&quot;,&quot;middle_name&quot;:&quot;Testing&quot;,&quot;last_name&quot;:&quot;sample&quot;,&quot;date_of_birth&quot;:&quot;3/6/2022&quot;},{&quot;id&quot;:7620912,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620911,&quot;first_name&quot;:&quot;manish&quot;,&quot;middle_name&quot;:&quot;underside&quot;,&quot;last_name&quot;:&quot;dhungana&quot;,&quot;date_of_birth&quot;:&quot;11 March 1996&quot;},{&quot;id&quot;:7620910,&quot;first_name&quot;:&quot;manish&quot;,&quot;middle_name&quot;:&quot;underside&quot;,&quot;last_name&quot;:&quot;dhungana&quot;,&quot;date_of_birth&quot;:&quot;11 March 1996&quot;},{&quot;id&quot;:7620909,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620906,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620905,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620904,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620903,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620902,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;ABCD&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2001&quot;},{&quot;id&quot;:7620901,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620900,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620899,&quot;first_name&quot;:&quot;Ravneet&quot;,&quot;middle_name&quot;:&quot;Singh&quot;,&quot;last_name&quot;:&quot;Arora&quot;,&quot;date_of_birth&quot;:&quot;13/11/1998&quot;},{&quot;id&quot;:7620898,&quot;first_name&quot;:&quot;Ravneet&quot;,&quot;middle_name&quot;:&quot;Singh&quot;,&quot;last_name&quot;:&quot;Arora&quot;,&quot;date_of_birth&quot;:&quot;13/11/1998&quot;},{&quot;id&quot;:7620896,&quot;first_name&quot;:&quot;update&quot;,&quot;middle_name&quot;:&quot;ul&quot;,&quot;last_name&quot;:&quot;rehman&quot;,&quot;date_of_birth&quot;:&quot;11/11/2023&quot;},{&quot;id&quot;:7620895,&quot;first_name&quot;:&quot;Ravneet&quot;,&quot;middle_name&quot;:&quot;Singh&quot;,&quot;last_name&quot;:&quot;Arora&quot;,&quot;date_of_birth&quot;:&quot;13/11/1998&quot;},{&quot;id&quot;:7620894,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620893,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620892,&quot;first_name&quot;:&quot;Ravneet&quot;,&quot;middle_name&quot;:&quot;Singh&quot;,&quot;last_name&quot;:&quot;Arora&quot;,&quot;date_of_birth&quot;:&quot;13/11/1998&quot;},{&quot;id&quot;:7620891,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620890,&quot;first_name&quot;:&quot;Testing&quot;,&quot;middle_name&quot;:&quot;A&quot;,&quot;last_name&quot;:&quot;Hello&quot;,&quot;date_of_birth&quot;:&quot;01/11/2000&quot;},{&quot;id&quot;:7620889,&quot;first_name&quot;:&quot;Ravneet&quot;,&quot;middle_name&quot;:&quot;Singh&quot;,&quot;last_name&quot;:&quot;Arora&quot;,&quot;date_of_birth&quot;:&quot;13/11/1998&quot;},{&quot;id&quot;:7620888,&quot;first_name&quot;:&quot;Ravneet&quot;,&quot;middle_name&quot;:&quot;Singh&quot;,&quot;last_name&quot;:&quot;Arora&quot;,&quot;date_of_birth&quot;:&quot;13/11/1998&quot;},{&quot;id&quot;:7620887,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620885,&quot;first_name&quot;:&quot;update&quot;,&quot;middle_name&quot;:&quot;ul&quot;,&quot;last_name&quot;:&quot;rehman&quot;,&quot;date_of_birth&quot;:&quot;11/11/2023&quot;},{&quot;id&quot;:7620884,&quot;first_name&quot;:&quot;New&quot;,&quot;middle_name&quot;:&quot;Student&quot;,&quot;last_name&quot;:&quot;1&quot;,&quot;date_of_birth&quot;:&quot;11/1/2020&quot;},{&quot;id&quot;:7620882,&quot;first_name&quot;:&quot;update&quot;,&quot;middle_name&quot;:&quot;ul&quot;,&quot;last_name&quot;:&quot;rehman&quot;,&quot;date_of_birth&quot;:&quot;11/11/2023&quot;},{&quot;id&quot;:7620880,&quot;first_name&quot;:null,&quot;middle_name&quot;:null,&quot;last_name&quot;:null,&quot;date_of_birth&quot;:null},{&quot;id&quot;:7620878,&quot;first_name&quot;:&quot;update&quot;,&quot;middle_name&quot;:&quot;ul&quot;,&quot;last_name&quot;:&quot;rehman&quot;,&quot;date_of_birth&quot;:&quot;11/11/2023&quot;},{&quot;id&quot;:7620877,&quot;first_name&quot;:&quot;sample string 2&quot;,&quot;middle_name&quot;:&quot;sample string 3&quot;,&quot;last_name&quot;:&quot;sample string 4&quot;,&quot;date_of_birth&quot;:&quot;sample string 5&quot;},{&quot;id&quot;:7620876,&quot;first_name&quot;:&quot;sample string 2&quot;,&quot;middle_name&quot;:&quot;sample string 3&quot;,&quot;last_name&quot;:&quot;sample string 4&quot;,&quot;date_of_birth&quot;:&quot;sample string 5&quot;},{&quot;id&quot;:7620875,&quot;first_name&quot;:&quot;sample stri&quot;,&quot;middle_name&quot;:&quot;sample string 3&quot;,&quot;last_name&quot;:&quot;sample string 4&quot;,&quot;date_of_birth&quot;:&quot;sample string 5&quot;},{&quot;id&quot;:7620874,&quot;first_name&quot;:&quot;sample string 2&quot;,&quot;middle_name&quot;:&quot;sample string 3&quot;,&quot;last_name&quot;:&quot;sample string 4&quot;,&quot;date_of_birth&quot;:&quot;sample string 5&quot;},{&quot;id&quot;:7620873,&quot;first_name&quot;:&quot;Testing &quot;,&quot;middle_name&quot;:&quot;API&quot;,&quot;last_name&quot;:&quot;First&quot;,&quot;date_of_birth&quot;:&quot;27/12/1990&quot;},{&quot;id&quot;:7620872,&quot;first_name&quot;:&quot;Testing &quot;,&quot;middle_name&quot;:&quot;API&quot;,&quot;last_name&quot;:&quot;First&quot;,&quot;date_of_birth&quot;:&quot;27/12/1990&quot;},{&quot;id&quot;:7620871,&quot;first_name&quot;:&quot;Testing &quot;,&quot;middle_name&quot;:&quot;API&quot;,&quot;last_name&quot;:&quot;First&quot;,&quot;date_of_birth&quot;:&quot;27/12/1990&quot;},{&quot;id&quot;:7620870,&quot;first_name&quot;:&quot;Testing &quot;,&quot;middle_name&quot;:&quot;API&quot;,&quot;last_name&quot;:&quot;First&quot;,&quot;date_of_birth&quot;:&quot;27/12/1990&quot;},{&quot;id&quot;:7620869,&quot;first_name&quot;:&quot;Testing &quot;,&quot;middle_name&quot;:&quot;API&quot;,&quot;last_name&quot;:&quot;First&quot;,&quot;date_of_birth&quot;:&quot;27/12/1990&quot;}]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">13</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">22:16:09.367 [print] [
+  {
+    &quot;id&quot;: 7620983,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;23&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620982,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620981,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;88&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620980,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620979,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;40&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620978,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;28&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620977,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620976,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620975,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620974,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;72&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620973,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;50&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620972,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620971,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620970,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;14&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620969,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620968,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620967,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;34&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620966,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620965,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;6&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620964,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620963,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620962,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;36&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620961,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620959,
+    &quot;first_name&quot;: &quot;update&quot;,
+    &quot;middle_name&quot;: &quot;ul&quot;,
+    &quot;last_name&quot;: &quot;rehman&quot;,
+    &quot;date_of_birth&quot;: &quot;11/11/2023&quot;
+  },
+  {
+    &quot;id&quot;: 7620958,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620957,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;60&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620956,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;80&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620955,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;9&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620954,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620953,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;sample&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620952,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;sample&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620950,
+    &quot;first_name&quot;: &quot;update&quot;,
+    &quot;middle_name&quot;: &quot;ul&quot;,
+    &quot;last_name&quot;: &quot;rehman&quot;,
+    &quot;date_of_birth&quot;: &quot;11/11/2023&quot;
+  },
+  {
+    &quot;id&quot;: 7620949,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;sample&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620948,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;sample&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620947,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;sample&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620946,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;sample&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620945,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;sample&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620944,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;sample&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620943,
+    &quot;first_name&quot;: &quot;sample string 2&quot;,
+    &quot;middle_name&quot;: &quot;sample string 3&quot;,
+    &quot;last_name&quot;: &quot;sample string 4&quot;,
+    &quot;date_of_birth&quot;: &quot;sample string 5&quot;
+  },
+  {
+    &quot;id&quot;: 7620941,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620939,
+    &quot;first_name&quot;: &quot;Testing111&quot;,
+    &quot;middle_name&quot;: &quot;EDF&quot;,
+    &quot;last_name&quot;: &quot;Hi Jack&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/1999&quot;
+  },
+  {
+    &quot;id&quot;: 7620938,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620937,
+    &quot;first_name&quot;: &quot;Testing111&quot;,
+    &quot;middle_name&quot;: &quot;EDF&quot;,
+    &quot;last_name&quot;: &quot;Hi Jack&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/1999&quot;
+  },
+  {
+    &quot;id&quot;: 7620936,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620934,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620933,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620932,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620931,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620930,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620929,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620928,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620927,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620925,
+    &quot;first_name&quot;: &quot;update&quot;,
+    &quot;middle_name&quot;: &quot;ul&quot;,
+    &quot;last_name&quot;: &quot;rehman&quot;,
+    &quot;date_of_birth&quot;: &quot;11/11/2023&quot;
+  },
+  {
+    &quot;id&quot;: 7620924,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620923,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620922,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620921,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620920,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620919,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620918,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620917,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620916,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;sample&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620915,
+    &quot;first_name&quot;: &quot;Vignes&quot;,
+    &quot;middle_name&quot;: &quot;Testing&quot;,
+    &quot;last_name&quot;: &quot;sample&quot;,
+    &quot;date_of_birth&quot;: &quot;3/6/2022&quot;
+  },
+  {
+    &quot;id&quot;: 7620912,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620911,
+    &quot;first_name&quot;: &quot;manish&quot;,
+    &quot;middle_name&quot;: &quot;underside&quot;,
+    &quot;last_name&quot;: &quot;dhungana&quot;,
+    &quot;date_of_birth&quot;: &quot;11 March 1996&quot;
+  },
+  {
+    &quot;id&quot;: 7620910,
+    &quot;first_name&quot;: &quot;manish&quot;,
+    &quot;middle_name&quot;: &quot;underside&quot;,
+    &quot;last_name&quot;: &quot;dhungana&quot;,
+    &quot;date_of_birth&quot;: &quot;11 March 1996&quot;
+  },
+  {
+    &quot;id&quot;: 7620909,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620906,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620905,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620904,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620903,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620902,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;ABCD&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2001&quot;
+  },
+  {
+    &quot;id&quot;: 7620901,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620900,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620899,
+    &quot;first_name&quot;: &quot;Ravneet&quot;,
+    &quot;middle_name&quot;: &quot;Singh&quot;,
+    &quot;last_name&quot;: &quot;Arora&quot;,
+    &quot;date_of_birth&quot;: &quot;13/11/1998&quot;
+  },
+  {
+    &quot;id&quot;: 7620898,
+    &quot;first_name&quot;: &quot;Ravneet&quot;,
+    &quot;middle_name&quot;: &quot;Singh&quot;,
+    &quot;last_name&quot;: &quot;Arora&quot;,
+    &quot;date_of_birth&quot;: &quot;13/11/1998&quot;
+  },
+  {
+    &quot;id&quot;: 7620896,
+    &quot;first_name&quot;: &quot;update&quot;,
+    &quot;middle_name&quot;: &quot;ul&quot;,
+    &quot;last_name&quot;: &quot;rehman&quot;,
+    &quot;date_of_birth&quot;: &quot;11/11/2023&quot;
+  },
+  {
+    &quot;id&quot;: 7620895,
+    &quot;first_name&quot;: &quot;Ravneet&quot;,
+    &quot;middle_name&quot;: &quot;Singh&quot;,
+    &quot;last_name&quot;: &quot;Arora&quot;,
+    &quot;date_of_birth&quot;: &quot;13/11/1998&quot;
+  },
+  {
+    &quot;id&quot;: 7620894,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620893,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620892,
+    &quot;first_name&quot;: &quot;Ravneet&quot;,
+    &quot;middle_name&quot;: &quot;Singh&quot;,
+    &quot;last_name&quot;: &quot;Arora&quot;,
+    &quot;date_of_birth&quot;: &quot;13/11/1998&quot;
+  },
+  {
+    &quot;id&quot;: 7620891,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620890,
+    &quot;first_name&quot;: &quot;Testing&quot;,
+    &quot;middle_name&quot;: &quot;A&quot;,
+    &quot;last_name&quot;: &quot;Hello&quot;,
+    &quot;date_of_birth&quot;: &quot;01/11/2000&quot;
+  },
+  {
+    &quot;id&quot;: 7620889,
+    &quot;first_name&quot;: &quot;Ravneet&quot;,
+    &quot;middle_name&quot;: &quot;Singh&quot;,
+    &quot;last_name&quot;: &quot;Arora&quot;,
+    &quot;date_of_birth&quot;: &quot;13/11/1998&quot;
+  },
+  {
+    &quot;id&quot;: 7620888,
+    &quot;first_name&quot;: &quot;Ravneet&quot;,
+    &quot;middle_name&quot;: &quot;Singh&quot;,
+    &quot;last_name&quot;: &quot;Arora&quot;,
+    &quot;date_of_birth&quot;: &quot;13/11/1998&quot;
+  },
+  {
+    &quot;id&quot;: 7620887,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620885,
+    &quot;first_name&quot;: &quot;update&quot;,
+    &quot;middle_name&quot;: &quot;ul&quot;,
+    &quot;last_name&quot;: &quot;rehman&quot;,
+    &quot;date_of_birth&quot;: &quot;11/11/2023&quot;
+  },
+  {
+    &quot;id&quot;: 7620884,
+    &quot;first_name&quot;: &quot;New&quot;,
+    &quot;middle_name&quot;: &quot;Student&quot;,
+    &quot;last_name&quot;: &quot;1&quot;,
+    &quot;date_of_birth&quot;: &quot;11/1/2020&quot;
+  },
+  {
+    &quot;id&quot;: 7620882,
+    &quot;first_name&quot;: &quot;update&quot;,
+    &quot;middle_name&quot;: &quot;ul&quot;,
+    &quot;last_name&quot;: &quot;rehman&quot;,
+    &quot;date_of_birth&quot;: &quot;11/11/2023&quot;
+  },
+  {
+    &quot;id&quot;: 7620880,
+    &quot;first_name&quot;: null,
+    &quot;middle_name&quot;: null,
+    &quot;last_name&quot;: null,
+    &quot;date_of_birth&quot;: null
+  },
+  {
+    &quot;id&quot;: 7620878,
+    &quot;first_name&quot;: &quot;update&quot;,
+    &quot;middle_name&quot;: &quot;ul&quot;,
+    &quot;last_name&quot;: &quot;rehman&quot;,
+    &quot;date_of_birth&quot;: &quot;11/11/2023&quot;
+  },
+  {
+    &quot;id&quot;: 7620877,
+    &quot;first_name&quot;: &quot;sample string 2&quot;,
+    &quot;middle_name&quot;: &quot;sample string 3&quot;,
+    &quot;last_name&quot;: &quot;sample string 4&quot;,
+    &quot;date_of_birth&quot;: &quot;sample string 5&quot;
+  },
+  {
+    &quot;id&quot;: 7620876,
+    &quot;first_name&quot;: &quot;sample string 2&quot;,
+    &quot;middle_name&quot;: &quot;sample string 3&quot;,
+    &quot;last_name&quot;: &quot;sample string 4&quot;,
+    &quot;date_of_birth&quot;: &quot;sample string 5&quot;
+  },
+  {
+    &quot;id&quot;: 7620875,
+    &quot;first_name&quot;: &quot;sample stri&quot;,
+    &quot;middle_name&quot;: &quot;sample string 3&quot;,
+    &quot;last_name&quot;: &quot;sample string 4&quot;,
+    &quot;date_of_birth&quot;: &quot;sample string 5&quot;
+  },
+  {
+    &quot;id&quot;: 7620874,
+    &quot;first_name&quot;: &quot;sample string 2&quot;,
+    &quot;middle_name&quot;: &quot;sample string 3&quot;,
+    &quot;last_name&quot;: &quot;sample string 4&quot;,
+    &quot;date_of_birth&quot;: &quot;sample string 5&quot;
+  },
+  {
+    &quot;id&quot;: 7620873,
+    &quot;first_name&quot;: &quot;Testing &quot;,
+    &quot;middle_name&quot;: &quot;API&quot;,
+    &quot;last_name&quot;: &quot;First&quot;,
+    &quot;date_of_birth&quot;: &quot;27/12/1990&quot;
+  },
+  {
+    &quot;id&quot;: 7620872,
+    &quot;first_name&quot;: &quot;Testing &quot;,
+    &quot;middle_name&quot;: &quot;API&quot;,
+    &quot;last_name&quot;: &quot;First&quot;,
+    &quot;date_of_birth&quot;: &quot;27/12/1990&quot;
+  },
+  {
+    &quot;id&quot;: 7620871,
+    &quot;first_name&quot;: &quot;Testing &quot;,
+    &quot;middle_name&quot;: &quot;API&quot;,
+    &quot;last_name&quot;: &quot;First&quot;,
+    &quot;date_of_birth&quot;: &quot;27/12/1990&quot;
+  },
+  {
+    &quot;id&quot;: 7620870,
+    &quot;first_name&quot;: &quot;Testing &quot;,
+    &quot;middle_name&quot;: &quot;API&quot;,
+    &quot;last_name&quot;: &quot;First&quot;,
+    &quot;date_of_birth&quot;: &quot;27/12/1990&quot;
+  },
+  {
+    &quot;id&quot;: 7620869,
+    &quot;first_name&quot;: &quot;Testing &quot;,
+    &quot;middle_name&quot;: &quot;API&quot;,
+    &quot;last_name&quot;: &quot;First&quot;,
+    &quot;date_of_birth&quot;: &quot;27/12/1990&quot;
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response contains deep {&quot;middle_name&quot;: &quot;ul&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#And match response.[0].middle_name == &#39;ul&#39;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == &#39;#[100]&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#And match response.[*].middle_name contains &#39;priyanka&#39;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.[0].middle_name == &#39;#string? _.length &gt;= 2&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#And match response.$[?(@.id == 7614501)].first_name contains &quot;update&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def mainschema = {&quot;id&quot;:&#39;#number&#39;,&quot;first_name&quot;:&#39;##string&#39;,&quot;middle_name&quot;:&#39;##string&#39;,&quot;last_name&quot;:&#39;##string&#39;,&quot;date_of_birth&quot;:&#39;##string&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response ==</span>
+      </div>
+    </div>
+    <div class="time-cell passed">130</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.20">&#39;#[] ##(mainschema)&#39;</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def firstname = karate.jsonPath(response,&quot;$[?(@.id == 7620833)].first_name&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">53</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print firstname + &quot; this&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">16</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.25">22:16:09.580 [print]  this 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:29]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">StudentDetails_GET_Xml</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:29]</span>
+                <span class="scenario-name">To get all the details of Student in Xml format</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>489</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://thetestingworldapi.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.30">22:16:09.587 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/api/studentsDetails&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Accept = &#39;application/xml&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">300</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.33">22:16:09.591 request:
+1 &gt; GET https://thetestingworldapi.com/api/studentsDetails
+1 &gt; Accept: application/xml
+1 &gt; Host: thetestingworldapi.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+22:16:09.844 response time in milliseconds: 251
+1 &lt; 200
+1 &lt; Cache-Control: no-cache
+1 &lt; Pragma: no-cache
+1 &lt; Content-Type: application/xml; charset=utf-8
+1 &lt; Expires: -1
+1 &lt; Server: Microsoft-IIS/10.0
+1 &lt; X-AspNet-Version: 4.0.30319
+1 &lt; X-Powered-By: ASP.NET
+1 &lt; X-Powered-By-Plesk: PleskWin
+1 &lt; Date: Sun, 02 Jul 2023 16:46:09 GMT
+1 &lt; Content-Length: 18188
+&lt;ArrayOfstudentsDetail xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/WebApiOauth2.Models&quot;&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620983&lt;/id&gt;&lt;last_name&gt;23&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620982&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620981&lt;/id&gt;&lt;last_name&gt;88&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620980&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620979&lt;/id&gt;&lt;last_name&gt;40&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620978&lt;/id&gt;&lt;last_name&gt;28&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620977&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620976&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620975&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620974&lt;/id&gt;&lt;last_name&gt;72&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620973&lt;/id&gt;&lt;last_name&gt;50&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620972&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620971&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620970&lt;/id&gt;&lt;last_name&gt;14&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620969&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620968&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620967&lt;/id&gt;&lt;last_name&gt;34&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620966&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620965&lt;/id&gt;&lt;last_name&gt;6&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620964&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620963&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620962&lt;/id&gt;&lt;last_name&gt;36&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620961&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/11/2023&lt;/date_of_birth&gt;&lt;first_name&gt;update&lt;/first_name&gt;&lt;id&gt;7620959&lt;/id&gt;&lt;last_name&gt;rehman&lt;/last_name&gt;&lt;middle_name&gt;ul&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620958&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620957&lt;/id&gt;&lt;last_name&gt;60&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620956&lt;/id&gt;&lt;last_name&gt;80&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620955&lt;/id&gt;&lt;last_name&gt;9&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620954&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620953&lt;/id&gt;&lt;last_name&gt;sample&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620952&lt;/id&gt;&lt;last_name&gt;sample&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/11/2023&lt;/date_of_birth&gt;&lt;first_name&gt;update&lt;/first_name&gt;&lt;id&gt;7620950&lt;/id&gt;&lt;last_name&gt;rehman&lt;/last_name&gt;&lt;middle_name&gt;ul&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620949&lt;/id&gt;&lt;last_name&gt;sample&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620948&lt;/id&gt;&lt;last_name&gt;sample&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620947&lt;/id&gt;&lt;last_name&gt;sample&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620946&lt;/id&gt;&lt;last_name&gt;sample&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620945&lt;/id&gt;&lt;last_name&gt;sample&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620944&lt;/id&gt;&lt;last_name&gt;sample&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;sample string 5&lt;/date_of_birth&gt;&lt;first_name&gt;sample string 2&lt;/first_name&gt;&lt;id&gt;7620943&lt;/id&gt;&lt;last_name&gt;sample string 4&lt;/last_name&gt;&lt;middle_name&gt;sample string 3&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620941&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/1999&lt;/date_of_birth&gt;&lt;first_name&gt;Testing111&lt;/first_name&gt;&lt;id&gt;7620939&lt;/id&gt;&lt;last_name&gt;Hi Jack&lt;/last_name&gt;&lt;middle_name&gt;EDF&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620938&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/1999&lt;/date_of_birth&gt;&lt;first_name&gt;Testing111&lt;/first_name&gt;&lt;id&gt;7620937&lt;/id&gt;&lt;last_name&gt;Hi Jack&lt;/last_name&gt;&lt;middle_name&gt;EDF&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620936&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620934&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620933&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620932&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620931&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620930&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620929&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620928&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620927&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/11/2023&lt;/date_of_birth&gt;&lt;first_name&gt;update&lt;/first_name&gt;&lt;id&gt;7620925&lt;/id&gt;&lt;last_name&gt;rehman&lt;/last_name&gt;&lt;middle_name&gt;ul&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620924&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620923&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620922&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620921&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620920&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620919&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620918&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620917&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620916&lt;/id&gt;&lt;last_name&gt;sample&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;&lt;first_name&gt;Vignes&lt;/first_name&gt;&lt;id&gt;7620915&lt;/id&gt;&lt;last_name&gt;sample&lt;/last_name&gt;&lt;middle_name&gt;Testing&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620912&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11 March 1996&lt;/date_of_birth&gt;&lt;first_name&gt;manish&lt;/first_name&gt;&lt;id&gt;7620911&lt;/id&gt;&lt;last_name&gt;dhungana&lt;/last_name&gt;&lt;middle_name&gt;underside&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11 March 1996&lt;/date_of_birth&gt;&lt;first_name&gt;manish&lt;/first_name&gt;&lt;id&gt;7620910&lt;/id&gt;&lt;last_name&gt;dhungana&lt;/last_name&gt;&lt;middle_name&gt;underside&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620909&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620906&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620905&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620904&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620903&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2001&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620902&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;ABCD&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620901&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620900&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;13/11/1998&lt;/date_of_birth&gt;&lt;first_name&gt;Ravneet&lt;/first_name&gt;&lt;id&gt;7620899&lt;/id&gt;&lt;last_name&gt;Arora&lt;/last_name&gt;&lt;middle_name&gt;Singh&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;13/11/1998&lt;/date_of_birth&gt;&lt;first_name&gt;Ravneet&lt;/first_name&gt;&lt;id&gt;7620898&lt;/id&gt;&lt;last_name&gt;Arora&lt;/last_name&gt;&lt;middle_name&gt;Singh&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/11/2023&lt;/date_of_birth&gt;&lt;first_name&gt;update&lt;/first_name&gt;&lt;id&gt;7620896&lt;/id&gt;&lt;last_name&gt;rehman&lt;/last_name&gt;&lt;middle_name&gt;ul&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;13/11/1998&lt;/date_of_birth&gt;&lt;first_name&gt;Ravneet&lt;/first_name&gt;&lt;id&gt;7620895&lt;/id&gt;&lt;last_name&gt;Arora&lt;/last_name&gt;&lt;middle_name&gt;Singh&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620894&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620893&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;13/11/1998&lt;/date_of_birth&gt;&lt;first_name&gt;Ravneet&lt;/first_name&gt;&lt;id&gt;7620892&lt;/id&gt;&lt;last_name&gt;Arora&lt;/last_name&gt;&lt;middle_name&gt;Singh&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620891&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;&lt;first_name&gt;Testing&lt;/first_name&gt;&lt;id&gt;7620890&lt;/id&gt;&lt;last_name&gt;Hello&lt;/last_name&gt;&lt;middle_name&gt;A&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;13/11/1998&lt;/date_of_birth&gt;&lt;first_name&gt;Ravneet&lt;/first_name&gt;&lt;id&gt;7620889&lt;/id&gt;&lt;last_name&gt;Arora&lt;/last_name&gt;&lt;middle_name&gt;Singh&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;13/11/1998&lt;/date_of_birth&gt;&lt;first_name&gt;Ravneet&lt;/first_name&gt;&lt;id&gt;7620888&lt;/id&gt;&lt;last_name&gt;Arora&lt;/last_name&gt;&lt;middle_name&gt;Singh&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620887&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/11/2023&lt;/date_of_birth&gt;&lt;first_name&gt;update&lt;/first_name&gt;&lt;id&gt;7620885&lt;/id&gt;&lt;last_name&gt;rehman&lt;/last_name&gt;&lt;middle_name&gt;ul&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;&lt;first_name&gt;New&lt;/first_name&gt;&lt;id&gt;7620884&lt;/id&gt;&lt;last_name&gt;1&lt;/last_name&gt;&lt;middle_name&gt;Student&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/11/2023&lt;/date_of_birth&gt;&lt;first_name&gt;update&lt;/first_name&gt;&lt;id&gt;7620882&lt;/id&gt;&lt;last_name&gt;rehman&lt;/last_name&gt;&lt;middle_name&gt;ul&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth i:nil=&quot;true&quot; /&gt;&lt;first_name i:nil=&quot;true&quot; /&gt;&lt;id&gt;7620880&lt;/id&gt;&lt;last_name i:nil=&quot;true&quot; /&gt;&lt;middle_name i:nil=&quot;true&quot; /&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;11/11/2023&lt;/date_of_birth&gt;&lt;first_name&gt;update&lt;/first_name&gt;&lt;id&gt;7620878&lt;/id&gt;&lt;last_name&gt;rehman&lt;/last_name&gt;&lt;middle_name&gt;ul&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;sample string 5&lt;/date_of_birth&gt;&lt;first_name&gt;sample string 2&lt;/first_name&gt;&lt;id&gt;7620877&lt;/id&gt;&lt;last_name&gt;sample string 4&lt;/last_name&gt;&lt;middle_name&gt;sample string 3&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;sample string 5&lt;/date_of_birth&gt;&lt;first_name&gt;sample string 2&lt;/first_name&gt;&lt;id&gt;7620876&lt;/id&gt;&lt;last_name&gt;sample string 4&lt;/last_name&gt;&lt;middle_name&gt;sample string 3&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;sample string 5&lt;/date_of_birth&gt;&lt;first_name&gt;sample stri&lt;/first_name&gt;&lt;id&gt;7620875&lt;/id&gt;&lt;last_name&gt;sample string 4&lt;/last_name&gt;&lt;middle_name&gt;sample string 3&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;sample string 5&lt;/date_of_birth&gt;&lt;first_name&gt;sample string 2&lt;/first_name&gt;&lt;id&gt;7620874&lt;/id&gt;&lt;last_name&gt;sample string 4&lt;/last_name&gt;&lt;middle_name&gt;sample string 3&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;27/12/1990&lt;/date_of_birth&gt;&lt;first_name&gt;Testing &lt;/first_name&gt;&lt;id&gt;7620873&lt;/id&gt;&lt;last_name&gt;First&lt;/last_name&gt;&lt;middle_name&gt;API&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;27/12/1990&lt;/date_of_birth&gt;&lt;first_name&gt;Testing &lt;/first_name&gt;&lt;id&gt;7620872&lt;/id&gt;&lt;last_name&gt;First&lt;/last_name&gt;&lt;middle_name&gt;API&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;27/12/1990&lt;/date_of_birth&gt;&lt;first_name&gt;Testing &lt;/first_name&gt;&lt;id&gt;7620871&lt;/id&gt;&lt;last_name&gt;First&lt;/last_name&gt;&lt;middle_name&gt;API&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;27/12/1990&lt;/date_of_birth&gt;&lt;first_name&gt;Testing &lt;/first_name&gt;&lt;id&gt;7620870&lt;/id&gt;&lt;last_name&gt;First&lt;/last_name&gt;&lt;middle_name&gt;API&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;studentsDetail&gt;&lt;date_of_birth&gt;27/12/1990&lt;/date_of_birth&gt;&lt;first_name&gt;Testing &lt;/first_name&gt;&lt;id&gt;7620869&lt;/id&gt;&lt;last_name&gt;First&lt;/last_name&gt;&lt;middle_name&gt;API&lt;/middle_name&gt;&lt;/studentsDetail&gt;&lt;/ArrayOfstudentsDetail&gt;
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">150</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35">22:16:10.039 [print] &lt;ArrayOfstudentsDetail xmlns=&quot;http://schemas.datacontract.org/2004/07/WebApiOauth2.Models&quot; xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620983&lt;/id&gt;
+    &lt;last_name&gt;23&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620982&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620981&lt;/id&gt;
+    &lt;last_name&gt;88&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620980&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620979&lt;/id&gt;
+    &lt;last_name&gt;40&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620978&lt;/id&gt;
+    &lt;last_name&gt;28&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620977&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620976&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620975&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620974&lt;/id&gt;
+    &lt;last_name&gt;72&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620973&lt;/id&gt;
+    &lt;last_name&gt;50&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620972&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620971&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620970&lt;/id&gt;
+    &lt;last_name&gt;14&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620969&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620968&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620967&lt;/id&gt;
+    &lt;last_name&gt;34&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620966&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620965&lt;/id&gt;
+    &lt;last_name&gt;6&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620964&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620963&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620962&lt;/id&gt;
+    &lt;last_name&gt;36&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620961&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/11/2023&lt;/date_of_birth&gt;
+    &lt;first_name&gt;update&lt;/first_name&gt;
+    &lt;id&gt;7620959&lt;/id&gt;
+    &lt;last_name&gt;rehman&lt;/last_name&gt;
+    &lt;middle_name&gt;ul&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620958&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620957&lt;/id&gt;
+    &lt;last_name&gt;60&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620956&lt;/id&gt;
+    &lt;last_name&gt;80&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620955&lt;/id&gt;
+    &lt;last_name&gt;9&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620954&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620953&lt;/id&gt;
+    &lt;last_name&gt;sample&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620952&lt;/id&gt;
+    &lt;last_name&gt;sample&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/11/2023&lt;/date_of_birth&gt;
+    &lt;first_name&gt;update&lt;/first_name&gt;
+    &lt;id&gt;7620950&lt;/id&gt;
+    &lt;last_name&gt;rehman&lt;/last_name&gt;
+    &lt;middle_name&gt;ul&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620949&lt;/id&gt;
+    &lt;last_name&gt;sample&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620948&lt;/id&gt;
+    &lt;last_name&gt;sample&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620947&lt;/id&gt;
+    &lt;last_name&gt;sample&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620946&lt;/id&gt;
+    &lt;last_name&gt;sample&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620945&lt;/id&gt;
+    &lt;last_name&gt;sample&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620944&lt;/id&gt;
+    &lt;last_name&gt;sample&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;sample string 5&lt;/date_of_birth&gt;
+    &lt;first_name&gt;sample string 2&lt;/first_name&gt;
+    &lt;id&gt;7620943&lt;/id&gt;
+    &lt;last_name&gt;sample string 4&lt;/last_name&gt;
+    &lt;middle_name&gt;sample string 3&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620941&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/1999&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing111&lt;/first_name&gt;
+    &lt;id&gt;7620939&lt;/id&gt;
+    &lt;last_name&gt;Hi Jack&lt;/last_name&gt;
+    &lt;middle_name&gt;EDF&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620938&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/1999&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing111&lt;/first_name&gt;
+    &lt;id&gt;7620937&lt;/id&gt;
+    &lt;last_name&gt;Hi Jack&lt;/last_name&gt;
+    &lt;middle_name&gt;EDF&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620936&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620934&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620933&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620932&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620931&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620930&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620929&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620928&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620927&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/11/2023&lt;/date_of_birth&gt;
+    &lt;first_name&gt;update&lt;/first_name&gt;
+    &lt;id&gt;7620925&lt;/id&gt;
+    &lt;last_name&gt;rehman&lt;/last_name&gt;
+    &lt;middle_name&gt;ul&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620924&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620923&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620922&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620921&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620920&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620919&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620918&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620917&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620916&lt;/id&gt;
+    &lt;last_name&gt;sample&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;3/6/2022&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Vignes&lt;/first_name&gt;
+    &lt;id&gt;7620915&lt;/id&gt;
+    &lt;last_name&gt;sample&lt;/last_name&gt;
+    &lt;middle_name&gt;Testing&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620912&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11 March 1996&lt;/date_of_birth&gt;
+    &lt;first_name&gt;manish&lt;/first_name&gt;
+    &lt;id&gt;7620911&lt;/id&gt;
+    &lt;last_name&gt;dhungana&lt;/last_name&gt;
+    &lt;middle_name&gt;underside&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11 March 1996&lt;/date_of_birth&gt;
+    &lt;first_name&gt;manish&lt;/first_name&gt;
+    &lt;id&gt;7620910&lt;/id&gt;
+    &lt;last_name&gt;dhungana&lt;/last_name&gt;
+    &lt;middle_name&gt;underside&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620909&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620906&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620905&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620904&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620903&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2001&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620902&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;ABCD&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620901&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620900&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;13/11/1998&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Ravneet&lt;/first_name&gt;
+    &lt;id&gt;7620899&lt;/id&gt;
+    &lt;last_name&gt;Arora&lt;/last_name&gt;
+    &lt;middle_name&gt;Singh&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;13/11/1998&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Ravneet&lt;/first_name&gt;
+    &lt;id&gt;7620898&lt;/id&gt;
+    &lt;last_name&gt;Arora&lt;/last_name&gt;
+    &lt;middle_name&gt;Singh&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/11/2023&lt;/date_of_birth&gt;
+    &lt;first_name&gt;update&lt;/first_name&gt;
+    &lt;id&gt;7620896&lt;/id&gt;
+    &lt;last_name&gt;rehman&lt;/last_name&gt;
+    &lt;middle_name&gt;ul&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;13/11/1998&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Ravneet&lt;/first_name&gt;
+    &lt;id&gt;7620895&lt;/id&gt;
+    &lt;last_name&gt;Arora&lt;/last_name&gt;
+    &lt;middle_name&gt;Singh&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620894&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620893&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;13/11/1998&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Ravneet&lt;/first_name&gt;
+    &lt;id&gt;7620892&lt;/id&gt;
+    &lt;last_name&gt;Arora&lt;/last_name&gt;
+    &lt;middle_name&gt;Singh&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620891&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;01/11/2000&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620890&lt;/id&gt;
+    &lt;last_name&gt;Hello&lt;/last_name&gt;
+    &lt;middle_name&gt;A&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;13/11/1998&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Ravneet&lt;/first_name&gt;
+    &lt;id&gt;7620889&lt;/id&gt;
+    &lt;last_name&gt;Arora&lt;/last_name&gt;
+    &lt;middle_name&gt;Singh&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;13/11/1998&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Ravneet&lt;/first_name&gt;
+    &lt;id&gt;7620888&lt;/id&gt;
+    &lt;last_name&gt;Arora&lt;/last_name&gt;
+    &lt;middle_name&gt;Singh&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620887&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/11/2023&lt;/date_of_birth&gt;
+    &lt;first_name&gt;update&lt;/first_name&gt;
+    &lt;id&gt;7620885&lt;/id&gt;
+    &lt;last_name&gt;rehman&lt;/last_name&gt;
+    &lt;middle_name&gt;ul&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/1/2020&lt;/date_of_birth&gt;
+    &lt;first_name&gt;New&lt;/first_name&gt;
+    &lt;id&gt;7620884&lt;/id&gt;
+    &lt;last_name&gt;1&lt;/last_name&gt;
+    &lt;middle_name&gt;Student&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/11/2023&lt;/date_of_birth&gt;
+    &lt;first_name&gt;update&lt;/first_name&gt;
+    &lt;id&gt;7620882&lt;/id&gt;
+    &lt;last_name&gt;rehman&lt;/last_name&gt;
+    &lt;middle_name&gt;ul&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth i:nil=&quot;true&quot;/&gt;
+    &lt;first_name i:nil=&quot;true&quot;/&gt;
+    &lt;id&gt;7620880&lt;/id&gt;
+    &lt;last_name i:nil=&quot;true&quot;/&gt;
+    &lt;middle_name i:nil=&quot;true&quot;/&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;11/11/2023&lt;/date_of_birth&gt;
+    &lt;first_name&gt;update&lt;/first_name&gt;
+    &lt;id&gt;7620878&lt;/id&gt;
+    &lt;last_name&gt;rehman&lt;/last_name&gt;
+    &lt;middle_name&gt;ul&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;sample string 5&lt;/date_of_birth&gt;
+    &lt;first_name&gt;sample string 2&lt;/first_name&gt;
+    &lt;id&gt;7620877&lt;/id&gt;
+    &lt;last_name&gt;sample string 4&lt;/last_name&gt;
+    &lt;middle_name&gt;sample string 3&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;sample string 5&lt;/date_of_birth&gt;
+    &lt;first_name&gt;sample string 2&lt;/first_name&gt;
+    &lt;id&gt;7620876&lt;/id&gt;
+    &lt;last_name&gt;sample string 4&lt;/last_name&gt;
+    &lt;middle_name&gt;sample string 3&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;sample string 5&lt;/date_of_birth&gt;
+    &lt;first_name&gt;sample stri&lt;/first_name&gt;
+    &lt;id&gt;7620875&lt;/id&gt;
+    &lt;last_name&gt;sample string 4&lt;/last_name&gt;
+    &lt;middle_name&gt;sample string 3&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;sample string 5&lt;/date_of_birth&gt;
+    &lt;first_name&gt;sample string 2&lt;/first_name&gt;
+    &lt;id&gt;7620874&lt;/id&gt;
+    &lt;last_name&gt;sample string 4&lt;/last_name&gt;
+    &lt;middle_name&gt;sample string 3&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;27/12/1990&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620873&lt;/id&gt;
+    &lt;last_name&gt;First&lt;/last_name&gt;
+    &lt;middle_name&gt;API&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;27/12/1990&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620872&lt;/id&gt;
+    &lt;last_name&gt;First&lt;/last_name&gt;
+    &lt;middle_name&gt;API&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;27/12/1990&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620871&lt;/id&gt;
+    &lt;last_name&gt;First&lt;/last_name&gt;
+    &lt;middle_name&gt;API&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;27/12/1990&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620870&lt;/id&gt;
+    &lt;last_name&gt;First&lt;/last_name&gt;
+    &lt;middle_name&gt;API&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+  &lt;studentsDetail&gt;
+    &lt;date_of_birth&gt;27/12/1990&lt;/date_of_birth&gt;
+    &lt;first_name&gt;Testing&lt;/first_name&gt;
+    &lt;id&gt;7620869&lt;/id&gt;
+    &lt;last_name&gt;First&lt;/last_name&gt;
+    &lt;middle_name&gt;API&lt;/middle_name&gt;
+  &lt;/studentsDetail&gt;
+&lt;/ArrayOfstudentsDetail&gt;
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response/ArrayOfstudentsDetail/studentsDetail[3]/middle_name == &#39;#string&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">38</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
